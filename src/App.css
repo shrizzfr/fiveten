@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDFBF7;
+  --color-coffee: #3E2723;
+  --color-matcha: #4C6444;
+  --color-five10Blue: #154182;
+  
+  --font-display: "Playfair Display", Georgia, serif; /* Or whatever font you prefer */
+}
