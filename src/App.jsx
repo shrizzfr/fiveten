@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Make sure your folder structure exactly matches these paths:
-import Navbar from './components/Navbar'; // Double-check if your file is Navbar.jsx or NavBar.jsx
+import Navbar from './components/NavBar'; // Double-check if your file is Navbar.jsx or NavBar.jsx
 import Hero from './sections/Hero';
 import Menu from './sections/Menu'; 
 import Events from './sections/Events'; // Changed from Event to Events
