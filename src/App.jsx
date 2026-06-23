@@ -1,9 +1,11 @@
 // src/App.jsx
 import React from 'react';
-// Comment these out for now if you haven't fully built them yet
-import Navbar from './components/NavBar';
+
+// Make sure your folder structure exactly matches these paths:
+import Navbar from './components/Navbar'; // Double-check if your file is Navbar.jsx or NavBar.jsx
 import Hero from './sections/Hero';
 import Menu from './sections/Menu'; 
+import Events from './sections/Events'; // Changed from Event to Events
 import About from './sections/About'; 
 import Contact from './sections/Contact'; 
 import Footer from './components/Footer';
@@ -15,6 +17,7 @@ function App() {
       <main>
         <Hero />
         <Menu />
+        <Events /> {/* Changed to match the import */}
         <About />
         <Contact />
       </main>
